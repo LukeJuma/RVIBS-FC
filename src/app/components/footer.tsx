@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img
-                src="/src/images/rvibs_logo.jpeg"
+                src="/rvibs_logo.jpeg"
                 alt="RVIBS FC"
                 className="w-12 h-12 rounded-full object-cover shadow-lg"
               />

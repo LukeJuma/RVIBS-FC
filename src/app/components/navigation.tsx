@@ -54,7 +54,7 @@ export function Navigation() {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3 group">
               <img 
-                src="/src/images/rvibs_logo.jpeg" 
+                src="/rvibs_logo.jpeg" 
                 alt="RVIBS FC Logo" 
                 className="w-12 h-12 rounded-full object-cover transform group-hover:scale-110 transition-transform duration-300 shadow-lg"
               />

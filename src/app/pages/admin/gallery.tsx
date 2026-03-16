@@ -1,4 +1,4 @@
-﻿import { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { Link } from 'react-router';
 import { motion } from 'motion/react';
 import { ArrowLeft, Plus, Trash2, Save, X, Upload, ImageIcon } from 'lucide-react';

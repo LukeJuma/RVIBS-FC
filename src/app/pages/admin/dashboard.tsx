@@ -1,4 +1,4 @@
-﻿import { Link, useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import { motion } from 'motion/react';
 import { Users, Calendar, Newspaper, Image, Trophy, TrendingUp, Activity, Eye, User, CalendarDays, ImageIcon, BarChart2, LogOut } from 'lucide-react';
 import { useDataStore } from '../../hooks/use-data-store';
@@ -53,7 +53,7 @@ export function AdminDashboard() {
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src="/src/images/rvibs_logo.jpeg" alt="RVIBS FC" className="w-10 h-10 object-contain" />
+              <img src="/rvibs_logo.jpeg" alt="RVIBS FC" className="w-10 h-10 object-contain" />
               <div>
                 <h1 className="text-2xl font-black text-gray-900">Admin Dashboard</h1>
                 <p className="text-sm text-gray-500">Manage RVIBS FC website content</p>

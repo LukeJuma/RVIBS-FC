@@ -1,4 +1,4 @@
-﻿import { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { Link } from 'react-router';
 import { motion } from 'motion/react';
 import { ArrowLeft, Edit, Save, X, Plus, Trash2, Upload, Shield } from 'lucide-react';
@@ -159,7 +159,7 @@ export function AdminStandings() {
                           {team.teamLogo
                             ? <img src={team.teamLogo} alt={team.team} className="w-6 h-6 object-contain flex-shrink-0" />
                             : team.team === 'RVIBS FC'
-                              ? <img src="/src/images/rvibs_logo.jpeg" alt="" className="w-6 h-6 object-contain flex-shrink-0" />
+                              ? <img src="/rvibs_logo.jpeg" alt="" className="w-6 h-6 object-contain flex-shrink-0" />
                               : <Shield className="w-5 h-5 text-gray-300 flex-shrink-0" />
                           }
                           <span className={`text-sm font-bold ${team.team === 'RVIBS FC' ? 'text-blue-800' : 'text-gray-800'}`}>{team.team}</span>

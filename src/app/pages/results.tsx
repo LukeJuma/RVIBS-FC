@@ -7,7 +7,7 @@ const ITEMS_PER_PAGE = 8;
 
 function TeamLogo({ name, logo, isRVIBS }: { name: string; logo?: string; isRVIBS: boolean }) {
   if (isRVIBS) {
-    return <img src="/src/images/rvibs_logo.jpeg" alt="RVIBS FC" className="w-8 h-8 object-contain flex-shrink-0" />;
+    return <img src="/rvibs_logo.jpeg" alt="RVIBS FC" className="w-8 h-8 object-contain flex-shrink-0" />;
   }
   if (logo) {
     return <img src={logo} alt={name} className="w-8 h-8 object-contain flex-shrink-0" />;
@@ -53,7 +53,7 @@ export function Results() {
     <div className="min-h-screen bg-white pt-20">
       <section className="relative py-16 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/src/images/team-photo.jpg" alt="" className="w-full h-full object-cover object-top" loading="eager" fetchPriority="high" />
+          <img src="/team-photo.jpg" alt="" className="w-full h-full object-cover object-top" loading="eager" fetchPriority="high" />
           <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(0,82,159,0.88) 0%, rgba(0,40,80,0.92) 100%)' }} />
         </div>
         <div className="relative z-10 max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 text-center">

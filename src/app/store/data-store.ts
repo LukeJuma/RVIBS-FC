@@ -623,7 +623,7 @@ class DataStore {
 
   initStaticData() {
     this.fanPhotos = [
-      { id: '1', url: '/src/images/fans-crowd.jpg', caption: 'Matchday atmosphere at its best', fanName: 'RVIBS FC', date: '2026-03-06' },
+      { id: '1', url: '/fans-crowd.jpg', caption: 'Matchday atmosphere at its best', fanName: 'RVIBS FC', date: '2026-03-06' },
     ];
   }
 }

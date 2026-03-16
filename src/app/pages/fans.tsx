@@ -70,7 +70,7 @@ export function Fans() {
       <section className="relative min-h-[60vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/src/images/fans-hero.jpg"
+            src="/fans-hero.jpg"
             alt="Fans at Seals Arena"
             className="w-full h-full object-cover"
             style={{ objectPosition: '60% 30%' }}

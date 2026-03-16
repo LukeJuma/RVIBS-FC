@@ -41,7 +41,7 @@ export function AdminLogin() {
       >
         {/* Logo + Title */}
         <div className="text-center mb-8">
-          <img src="/src/images/rvibs_logo.jpeg" alt="RVIBS FC" className="w-16 h-16 object-contain mx-auto mb-4" />
+          <img src="/rvibs_logo.jpeg" alt="RVIBS FC" className="w-16 h-16 object-contain mx-auto mb-4" />
           <h1 className="text-2xl font-black text-gray-900">Admin Portal</h1>
           <p className="text-sm text-gray-500 mt-1">RVIBS FC · Authorised Access Only</p>
         </div>

@@ -65,7 +65,7 @@ export function Home() {
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-cover"
             style={{
-              backgroundImage: 'url(/src/images/team-photo.jpg)',
+              backgroundImage: 'url(/team-photo.jpg)',
               backgroundPosition: '50% 15%',
             }}
           />
@@ -131,7 +131,7 @@ export function Home() {
                       <div className="text-center">
                         <div className="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full overflow-hidden border-2 border-white/30 mb-1 sm:mb-1.5 mx-auto flex items-center justify-center bg-white/10">
                           {nextMatch.homeTeam === 'RVIBS FC'
-                            ? <img src="/src/images/rvibs_logo.jpeg" alt="RVIBS FC" className="w-full h-full object-cover" />
+                            ? <img src="/rvibs_logo.jpeg" alt="RVIBS FC" className="w-full h-full object-cover" />
                             : nextMatch.homeTeamLogo
                               ? <img src={nextMatch.homeTeamLogo} alt={nextMatch.homeTeam} className="w-full h-full object-contain" />
                               : <span className="text-white font-bold text-xs sm:text-base">{nextMatch.homeTeam.split(' ').map((w: string) => w[0]).join('').slice(0, 2).toUpperCase()}</span>
@@ -149,7 +149,7 @@ export function Home() {
                       <div className="text-center">
                         <div className="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 flex items-center justify-center mb-1 sm:mb-1.5 mx-auto overflow-hidden">
                           {nextMatch.awayTeam === 'RVIBS FC'
-                            ? <img src="/src/images/rvibs_logo.jpeg" alt="RVIBS FC" className="w-full h-full object-cover" />
+                            ? <img src="/rvibs_logo.jpeg" alt="RVIBS FC" className="w-full h-full object-cover" />
                             : nextMatch.awayTeamLogo
                               ? <img src={nextMatch.awayTeamLogo} alt={nextMatch.awayTeam} className="w-full h-full object-contain" />
                               : <span className="text-white font-bold text-xs sm:text-base md:text-lg">{nextMatch.awayTeam.split(' ').map((w: string) => w[0]).join('').slice(0, 2).toUpperCase()}</span>
@@ -226,7 +226,7 @@ export function Home() {
                     <div className="h-px bg-yellow-500/40 w-16" />
                   </div>
                   <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-white/30 mx-auto">
-                    <img src="/src/images/rvibs_logo.jpeg" alt="RVIBS FC" className="w-full h-full object-cover" />
+                    <img src="/rvibs_logo.jpeg" alt="RVIBS FC" className="w-full h-full object-cover" />
                   </div>
                   <p className="text-white/70 text-sm tracking-wide">No upcoming fixtures scheduled</p>
                   <div className="flex flex-col gap-2 max-w-xs mx-auto pt-2">
@@ -574,7 +574,7 @@ export function Home() {
                 <div className="relative rounded-2xl overflow-hidden mb-4" style={{ background: 'linear-gradient(135deg, #00529F 0%, #003d7a 100%)' }}>
                   <div className="aspect-square flex items-center justify-center p-8">
                     <img 
-                      src="/src/images/HOME.png" 
+                      src="/HOME.png" 
                       alt="Home Kit" 
                       className="w-full h-full object-contain drop-shadow-2xl transition-transform duration-300 group-hover:scale-105"
                     />
@@ -602,7 +602,7 @@ export function Home() {
                 <div className="relative rounded-2xl overflow-hidden mb-4 bg-white border-2 border-gray-200">
                   <div className="aspect-square flex items-center justify-center p-8">
                     <img 
-                      src="/src/images/AWAY.png" 
+                      src="/AWAY.png" 
                       alt="Away Kit" 
                       className="w-full h-full object-contain drop-shadow-2xl transition-transform duration-300 group-hover:scale-105"
                     />
@@ -630,7 +630,7 @@ export function Home() {
                 <div className="relative rounded-2xl overflow-hidden mb-4 bg-gradient-to-br from-gray-900 to-gray-800">
                   <div className="aspect-square flex items-center justify-center p-8">
                     <img 
-                      src="/src/images/THIRD.png" 
+                      src="/THIRD.png" 
                       alt="Third Kit" 
                       className="w-full h-full object-contain drop-shadow-2xl transition-transform duration-300 group-hover:scale-105"
                     />
